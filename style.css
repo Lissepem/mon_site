@@ -2,20 +2,47 @@
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
-    margin: 0;
+    margin: 0;  
     list-style-type: none;
     text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.bars img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
 }
 
 .navbar li{
     display: inline;
 }
 
-.imagepresentation img{
+
+.imagepresentation{
     display: flex;
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagepresentation img{
     width: 100%;
-    height: 100%;
-    padding-top: 30px;
+}
+
+
+.imagepresentation h1{
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bouton{
